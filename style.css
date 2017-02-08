@@ -1,0 +1,24 @@
+ul.nav {
+  list-style-type: none; /*убираем точки по-умолчанию*/
+}
+
+ul.nav li {
+  float: left; /*говорит, что каждый элемент прилипает левой стенкой к предыдущему элементу*/
+  padding: 10px; /* ставим внутренний отступ для всех сторон*/
+  margin-right: 2px; /*ставим отступ справа для всего элемента*/
+  background: black; /*цвет фона*/
+  color: white; /*цвет текста*/
+  border-radius: 6px; /*скругление краев*/
+  text-transform: uppercase; /*изменение содержимого текста*/
+  transition: all 0.5s ease; /*добавление анимации для всех изменений*/
+  cursor: pointer; /* курсор - рука*/
+}
+
+ul.nav li:hover {
+  background: #bbb; /*при наведение курсора менять цвет фона*/
+}
+
+
+ul.nav li.active {
+  background: #ccc; /*когда элемент активен менять цвет фона*/
+}
