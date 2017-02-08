@@ -1,0 +1,27 @@
+{
+    "name": "second",
+    "version": "1.0.0",
+    "description": "TEST",
+    "main": "main.js",
+    "dependencies": {
+        "express": "^4.14.1",
+        "gulp": "^3.9.1",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "path": "^0.12.7"
+    },
+    "scripts": {
+        "cont": "gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Monstro13/second-lesson.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Monstro13/second-lesson/issues"
+    },
+    "homepage": "https://github.com/Monstro13/second-lesson#readme"
+}
